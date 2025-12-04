@@ -10,6 +10,10 @@ public abstract class PokemonAquatique extends Pokemon{
         return getPoids()/25 * nbNageoires;
     }
 
+    public int getNbNageoires() {
+        return nbNageoires;
+    }
+
     @Override
     public String toString() {
         String prefix = super.toString();

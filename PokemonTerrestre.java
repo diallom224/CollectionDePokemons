@@ -14,7 +14,7 @@ public abstract class PokemonTerrestre extends Pokemon {
     @Override
     public String toString() {
         String prefix = super.toString();
-        return prefix + "j'ai " + nbPattes + " pattes, ma taille est de " + taille + " m.";
+        return prefix + " ma vitesse est de " + vitesse() + " j'ai " + nbPattes + " pattes, ma taille est de " + taille + " m.";
     }
 
 

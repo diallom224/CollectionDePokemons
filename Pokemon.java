@@ -12,7 +12,7 @@ public abstract class Pokemon {
 
 
     public String toString(){
-        return "je suis le Pokemon "+ _nom + "mon poids est de "+_poids;
+        return "je suis le Pokemon "+ _nom + " mon poids est de "+_poids;
     }
 
     protected double getPoids(){return _poids;}
